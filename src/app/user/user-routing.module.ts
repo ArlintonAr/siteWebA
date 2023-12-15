@@ -19,7 +19,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'https://arlintonar.github.io/siteWebA/user/home'
+    redirectTo: '/user/home'
   }
 
 ];
