@@ -10,7 +10,7 @@
 
     "build:github":"npm run delete:docs && npm run build:hrf && npm run copy:dist",
 
-    "build:hrf": "ng build --base-href ./",
+    "build:hrf": "ng build --base-href ./siteWebA",
     "delete:docs": "del docs",
     "copy:dist":"copyfiles dist/dashboard-practic/*.txt dist/dashboard-practic/browser/* ./docs -f"
   },
