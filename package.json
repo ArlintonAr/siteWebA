@@ -6,7 +6,13 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+
+    "build:github":"npm run delete:docs && npm run build:hrf && npm run copy:dist",
+
+    "build:hrf": "ng build --base-href ./",
+    "delete:docs": "del docs",
+    "copy:dist":"copyfiles dist/dashboard-practic/*.txt dist/dashboard-practic/browser/* ./docs -f"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +33,8 @@
     "@angular/cli": "^17.0.3",
     "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

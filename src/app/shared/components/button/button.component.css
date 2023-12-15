@@ -1,0 +1,19 @@
+
+
+button{
+  border: none;
+  border-radius: 1.8rem;
+
+  background-color:#28E98C ;
+
+  inline-size:18rem ;
+
+
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  cursor: pointer;
+
+}

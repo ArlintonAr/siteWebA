@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  gap: 1rem;
+}
+
+.border {
+  border: 2px solid #565656;
+  border-radius: 50%;
+
+  padding: .8rem;
+
+  cursor: pointer;
+
+}
+
+i {
+  color: #565656;
+  font-size: 1.4rem;
+  margin: 0px;
+  padding: 0;
+}

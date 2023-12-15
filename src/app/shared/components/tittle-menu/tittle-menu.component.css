@@ -1,0 +1,21 @@
+
+
+.icon{
+  border:1px solid #565656;
+  inline-size: 12rem;
+
+  border-radius: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  justify-content: center;
+
+}
+
+
+
+.icon > p{
+  margin: 0px;
+  padding:0.2rem ;
+}
