@@ -27,4 +27,12 @@ section img:hover{
   height: 150px;
  }
 
+
+section img:hover{
+  cursor: crosshair;
+  width: 100px;
+  opacity: 1;
+
+}
+
 }
