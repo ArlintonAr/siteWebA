@@ -2,8 +2,9 @@
 section{
 
   display: flex;
-  width: auto;
-  height: 430;
+  max-width: 600px;
+  height: 400px;
+
 }
 section img{
   width: 0px;
@@ -15,7 +16,7 @@ section img{
 
 section img:hover{
   cursor: crosshair;
-  width: 100px;
+  width: 200px;
   opacity: 1;
 
 }
