@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { AlbumComponent } from './components/album/album.component';
 
 
 
@@ -16,6 +17,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     HomeComponent,
     HistoryComponent,
     ProfileComponent,
+
+    AlbumComponent,
   ],
   imports: [
     CommonModule,
@@ -25,7 +28,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
   exports: [
     HistoryComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    AlbumComponent
   ],
 
   providers: [],
