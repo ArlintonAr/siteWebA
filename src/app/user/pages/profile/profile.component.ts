@@ -11,5 +11,5 @@ export class ProfileComponent {
 
 
   @Input()
-  public contentIcon:String[]=[`<i class="fa-solid fa-envelope"></i><p>TRABAJEMOS JUNTOS</p>`,]
+  public contentIcon:String[]=[`<i class="fa-solid fa-envelope"></i><p>ESCRÍBEME</p>`,]
 }
