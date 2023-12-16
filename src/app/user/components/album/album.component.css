@@ -20,3 +20,11 @@ section img:hover{
   opacity: 1;
 
 }
+
+
+@media screen and (max-width: 767px) {
+ section{
+  height: 150px;
+ }
+
+}
