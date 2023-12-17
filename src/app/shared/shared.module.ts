@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { TittleMenuComponent } from './components/tittle-menu/tittle-menu.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SocialComponent } from './components/social/social.component';
+import { SidebarMajorComponent } from './components/sidebar-major/sidebar-major.component';
+import { ButtonToggleMenuComponent } from './components/button-toggle-menu/button-toggle-menu.component';
 
 
 
@@ -13,7 +15,10 @@ import { SocialComponent } from './components/social/social.component';
     SidebarComponent,
     TittleMenuComponent,
     ButtonComponent,
-    SocialComponent
+    SocialComponent,
+    SidebarMajorComponent,
+    ButtonToggleMenuComponent,
+
   ],
   imports: [
     RouterModule
@@ -22,7 +27,9 @@ import { SocialComponent } from './components/social/social.component';
     SidebarComponent,
     TittleMenuComponent,
     ButtonComponent,
-    SocialComponent
+    SocialComponent,
+    SidebarMajorComponent,
+    ButtonToggleMenuComponent
   ],
 
   providers: [],

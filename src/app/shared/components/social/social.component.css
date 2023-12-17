@@ -1,21 +1,38 @@
 .content {
   display: flex;
+  justify-content: space-around;
   gap: 1rem;
+  padding: .5rem;
 }
 
 .border {
   border: 2px solid #565656;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 
   padding: .8rem;
-
   cursor: pointer;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
 
 i {
   color: #565656;
   font-size: 1.4rem;
-  margin: 0px;
+  margin: 0;
   padding: 0;
+
+}
+.border:hover{
+  border: 1px solid #28E98C;
+  transition: .6s;
+}
+i:hover{
+  color: #28E98C;
+  transition: .6s;
 }

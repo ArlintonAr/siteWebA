@@ -26,6 +26,17 @@
   color: white;
 }
 
+
+.content-button-sidebar-major{
+  position: fixed;
+  top: 8%;
+  transform: translateY(-8%);
+
+
+  right: 3.2rem;
+}
+
+
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
 
