@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppComponent } from '../../../app.component';
 
 @Component({
   selector: 'shared-sidebar-major',
@@ -7,10 +8,14 @@ import { Component } from '@angular/core';
 })
 export class SidebarMajorComponent {
 
-  public activeMenu:Boolean=true
 
 
-  clouseMenu():void{
-    this.activeMenu=!this.activeMenu
+  constructor(private appComponent: AppComponent) {
+
   }
+
+  clouseMenu():void {
+    this.appComponent.activeMenu=false
+  }
+
 }

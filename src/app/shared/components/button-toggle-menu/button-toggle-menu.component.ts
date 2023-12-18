@@ -9,7 +9,5 @@ export class ButtonToggleMenuComponent {
 
   public activeMenu:Boolean=false
 
-  toogleMenu():void{
-    this.activeMenu=!this.activeMenu
-  }
+
 }
