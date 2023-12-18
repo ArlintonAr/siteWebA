@@ -19,4 +19,10 @@ export class AppComponent {
   }
 
 
+
+  clouseOverlay():void {
+    this.activeMenu=false
+
+  }
+
 }

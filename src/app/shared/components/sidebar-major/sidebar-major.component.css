@@ -14,6 +14,7 @@
 
 }
 
+
 .content-body {
   top: 10rem;
 
@@ -100,11 +101,12 @@ button:hover {
 
  .redes{
   display: flex;
-  gap:.8rem;
-  cursor:pointer;
+  gap:1.4rem;
+
 }
 .redes i{
   font-size: 16px;
+  cursor:pointer;
 }
 
 
