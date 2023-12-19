@@ -1,6 +1,9 @@
 .content{
   color: white;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 .content-tittle-description{
   max-width: 42rem;
@@ -38,4 +41,9 @@ h1{
   padding: 0;
   margin: 0;
 
+}
+.content-step{
+  position: relative;
+
+  transition: left 0.5s ease-in-out;
 }

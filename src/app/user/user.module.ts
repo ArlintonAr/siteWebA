@@ -8,6 +8,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { AlbumComponent } from './components/album/album.component';
+import { StepComponent } from './components/step/step.component';
+
 
 
 
@@ -18,6 +20,8 @@ import { AlbumComponent } from './components/album/album.component';
     HistoryComponent,
     ProfileComponent,
     AlbumComponent,
+    StepComponent,
+
   ],
   imports: [
     CommonModule,
@@ -28,7 +32,8 @@ import { AlbumComponent } from './components/album/album.component';
     HistoryComponent,
     HomeComponent,
     ProfileComponent,
-    AlbumComponent
+    AlbumComponent,
+
   ],
 
   providers: [],

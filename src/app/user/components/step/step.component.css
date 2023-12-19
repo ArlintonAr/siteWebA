@@ -1,0 +1,78 @@
+
+.content{
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+
+  box-sizing: border-box;
+
+  height: 18rem;
+
+  position: relative;
+  transition: left 0.5s ease-in-out;
+}
+
+.spot-line{
+  color:#565656 ;
+  cursor:grab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.spot{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.line{
+
+  border-left:1px solid #565656;
+  height: 100%;
+
+}
+.spot-line:hover{
+  color: #28E98C;
+  transition: .5s;
+}
+
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color:#565656;
+  font-weight: bold;
+}
+p:hover{
+  color: #28E98C;
+}
+
+.job-description{
+
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+}
+
+h2{
+  margin: 0;
+  font-size:24px;
+  font-weight: 100;
+}
+
+.job-description span{
+  font-size: 15px;
+  color:#565656;
+  font-weight: bold;
+}
+
+.content-date-job{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
