@@ -1,38 +1,37 @@
-<div class="content-sidebar-major" *ngIf="activeMenu==false; else menu ">
+<div class="content-global">
+  <div class="content-sidebar-major" *ngIf="activeMenu==false; else menu ">
 
-</div>
+  </div>
 
-<<ng-template #menu >
+  <ng-template #menu>
   <div class="overlay" (click)="clouseOverlay()">
   </div>
-  <shared-sidebar-major ></shared-sidebar-major>
-</ng-template>
+  <shared-sidebar-major></shared-sidebar-major>
+  </ng-template>
 
-<div class="content-profile">
-  <user-profile></user-profile>
-</div>
-
-
-<div class="content-global">
-  <div class="limit-left">
-
+  <div class="content-profile">
+    <user-profile></user-profile>
   </div>
 
-  <div class="content">
+
+  <div class="content-body">
+    <div class="limit-left">
+    </div>
+
     <div class="content-body-page">
       <router-outlet></router-outlet>
     </div>
-  </div>
 
-  <div class="limit-rigth">
-
+    <div class="limit-rigth">
+    </div>
   </div>
-</div>
 
   <div class="content-button-sidebar-major">
-      <shared-button-toggle-menu (click)="toogleMenu()"></shared-button-toggle-menu>
+    <shared-button-toggle-menu (click)="toogleMenu()"></shared-button-toggle-menu>
   </div>
 
   <div class="content-sidebar">
     <shared-sidebar></shared-sidebar>
   </div>
+
+</div>
