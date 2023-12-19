@@ -67,9 +67,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
   .content-body{
     flex-direction: column;
+    align-items: center;
   }
   .content-body-page{
-    margin-left: 10%;
+
   }
   .limit-left{
     width: 0;
@@ -126,8 +127,8 @@
 
   }
   .content-button-sidebar-major{
-      top: 35rem;
-      transform: translateY(-35%);
+      top: 32rem;
+
      right: 1rem;
   }
 }
