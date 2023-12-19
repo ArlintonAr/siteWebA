@@ -22,6 +22,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  height: auto;
 }
 .spot{
   width: 15px;
@@ -61,18 +63,42 @@ p:hover{
 
 h2{
   margin: 0;
-  font-size:24px;
+  font-size:2vw;
   font-weight: 100;
 }
 
 .job-description span{
-  font-size: 15px;
+  font-size: 1.2vw;
   color:#565656;
-  font-weight: bold;
+  font-weight:lighter;
 }
 
 .content-date-job{
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 14%;
+
+  flex-grow: 1;
+  height: auto;
+}
+
+
+/* Estilos para pantallas medianas aquí */
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  h2{
+    font-size: 2.8vw;
+  }
+  .job-description span{
+    font-size: 1.6vw;
+  }
+}
+
+  /* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px ) {
+ h2{
+    font-size: 3.5vw;
+  }
+  .job-description span{
+    font-size: 2.5vw;
+  }
 }
