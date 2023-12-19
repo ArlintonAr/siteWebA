@@ -1,13 +1,14 @@
+<div class="content-sidebar-major" *ngIf="activeMenu==false; else menu ">
+
+</div>
+
+<ng-template #menu>
+<div class="overlay" (click)="clouseOverlay()">
+</div>
+<shared-sidebar-major></shared-sidebar-major>
+</ng-template>
+
 <div class="content-global">
-  <div class="content-sidebar-major" *ngIf="activeMenu==false; else menu ">
-
-  </div>
-
-  <ng-template #menu>
-  <div class="overlay" (click)="clouseOverlay()">
-  </div>
-  <shared-sidebar-major></shared-sidebar-major>
-  </ng-template>
 
   <div class="content-profile">
     <user-profile></user-profile>
