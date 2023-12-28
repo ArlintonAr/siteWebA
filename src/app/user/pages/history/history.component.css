@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+
+  position: absolute;
+  transition: left 0.7s ease-in-out;
+
 }
 .content-tittle-description, .content-certifications, .content-education-experience{
   max-width: 42rem;
@@ -58,7 +62,8 @@ h1{
 .content-step{
   position: relative;
 
-  transition: left 0.5s ease-in-out;
+
+
 }
 
 
