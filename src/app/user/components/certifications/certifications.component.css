@@ -1,17 +1,19 @@
-.certifications{
-  flex-grow: 1;
+.certification{
+
   border: 1px solid #565656;
   border-radius:30px ;
-  box-sizing: border-box;
+
 
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
 
+  max-width: 600px;
+
   cursor: pointer;
 
 }
-.certifications:hover{
+.certification:hover{
   border: 1px solid #28E98C;
 }
 
@@ -36,6 +38,6 @@
   color: white;
 }
 .icon {
-  font-size: 32px;
+  font-size: 24px;
   color:#28E98C ;
 }

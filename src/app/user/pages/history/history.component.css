@@ -22,12 +22,13 @@
   flex-direction: column;
   gap: 2rem;
 
-  max-width: 770px;
+
   box-sizing: border-box;
 
 
   height: 600px;
   overflow: auto;
+
 }
 
 h1{
