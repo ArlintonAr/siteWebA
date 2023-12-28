@@ -28,7 +28,7 @@
 
   height: 600px;
   overflow: auto;
-
+  padding: 1rem;
 }
 
 h1{
@@ -62,3 +62,15 @@ h1{
 }
 
 
+
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 767px ) {
+    h1{
+      font-size:32px ;
+
+    }
+    .tittle span {
+      color: #28E98C;
+      inline-size: auto;
+    }
+   }
