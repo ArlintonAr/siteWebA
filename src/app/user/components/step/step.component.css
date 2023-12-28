@@ -92,5 +92,10 @@ h1{
 
   /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px ) {
+  h1{
+    margin: 0;
+    font-size:16px;
+
+  }
 
 }
