@@ -9,6 +9,7 @@ import { HistoryComponent } from './pages/history/history.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { AlbumComponent } from './components/album/album.component';
 import { StepComponent } from './components/step/step.component';
+import { CertificationsComponent } from './components/certifications/certifications.component';
 
 
 
@@ -21,6 +22,7 @@ import { StepComponent } from './components/step/step.component';
     ProfileComponent,
     AlbumComponent,
     StepComponent,
+    CertificationsComponent,
 
   ],
   imports: [

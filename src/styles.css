@@ -8,3 +8,15 @@ body{
   background-color: #1F1F1F;
   font-family: 'Montserrat',sans-serif;
 }
+
+::-webkit-scrollbar{
+  background-color: #999999;
+
+  inline-size: .2rem;
+  block-size: .2rem;
+
+}
+::-webkit-scrollbar-thumb{
+  background:#28E98C ;
+}
+

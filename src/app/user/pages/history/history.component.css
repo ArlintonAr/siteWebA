@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 3rem;
 }
-.content-tittle-description{
+.content-tittle-description, .content-certifications, .content-education-experience{
   max-width: 42rem;
 
 
@@ -16,6 +16,15 @@
   flex-direction: column;
   gap: 3rem;
 
+}
+.certifications{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 600px;
+  overflow: auto;
+  padding: 2rem;
 }
 
 h1{
@@ -47,3 +56,5 @@ h1{
 
   transition: left 0.5s ease-in-out;
 }
+
+
