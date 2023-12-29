@@ -1,0 +1,28 @@
+.technology {
+
+  border-radius: 1.8rem;
+
+
+  color: #000;
+  background-color: white;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+}
+.technology:hover{
+  background-color: #1F1F1F;
+  color: white;
+  transition: .9s;
+}
+
+p{
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+
+}

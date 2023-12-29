@@ -6,6 +6,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { SocialComponent } from './components/social/social.component';
 import { SidebarMajorComponent } from './components/sidebar-major/sidebar-major.component';
 import { ButtonToggleMenuComponent } from './components/button-toggle-menu/button-toggle-menu.component';
+import { ButtomTechnologyComponent } from './components/buttom-technology/buttom-technology.component';
 
 
 
@@ -18,6 +19,7 @@ import { ButtonToggleMenuComponent } from './components/button-toggle-menu/butto
     SocialComponent,
     SidebarMajorComponent,
     ButtonToggleMenuComponent,
+    ButtomTechnologyComponent,
 
   ],
   imports: [
@@ -29,7 +31,8 @@ import { ButtonToggleMenuComponent } from './components/button-toggle-menu/butto
     ButtonComponent,
     SocialComponent,
     SidebarMajorComponent,
-    ButtonToggleMenuComponent
+    ButtonToggleMenuComponent,
+    ButtomTechnologyComponent
   ],
 
   providers: [],

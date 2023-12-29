@@ -1,18 +1,48 @@
 
 .content{
   color: white;
-
-  border: 1px solid tomato;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-img{
-  max-width: 100%;
-  border-radius: 48px;
+.image-buttoms{
   position: relative;
 }
+img{
+  max-width: 100%;
 
-.technology p{
+  border-radius: 48px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+
+.buttom-technology{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  width: auto;
+
   position: absolute;
-  border: 1px solid green;
 
+  bottom: 5%;
+  left: 7%;
+
+}
+
+.description{
+  box-sizing: border-box;
+}
+.description p{
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+
+
+}
+.description p:hover{
+  border-bottom: 1px solid white;
 }
