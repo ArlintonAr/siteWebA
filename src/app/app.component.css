@@ -20,20 +20,22 @@
 }
 
 .content-body{
-
-
   display: flex;
 
 }
 .limit-left{
-  width: 28%;
+  width: 30%;
 
 }
 .content-body-page{
+
+  width: 60%;
   color: white;
-
-
 }
+.limit-rigth{
+  width: 10%;
+}
+
 
 .content-sidebar, .content-profile{
   position: fixed;
@@ -72,8 +74,16 @@
 
   }
   .limit-left{
-    width: 0;
-    height: 0;
+    width: 0%;
+    height: 0%;
+  }
+  .content-body-page{
+
+    width: 100%;
+    color: white;
+  }
+  .limit-rigth{
+    width: 0%;
   }
   .content-profile {
     order: 0;
@@ -89,30 +99,30 @@
   .content-sidebar {
     display: none;
   }
-  .content-body-page{
+  /* .content-body-page{
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-  }
+  } */
 }
 /* max-width: 767px */
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px ) {
 
-
+/*
   .content-body-page{
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-  }
+  } */
   .content-sidebar, .content-profile {
     position: static;
     transform: none;
   }
-  .limit-left{
+  /* .limit-left{
     width: 0;
     height: 0;
-  }
+  } */
   .content-sidebar {
     display: none;
   }
@@ -121,13 +131,27 @@
     order: 0;
   }
 
-  .content-body-page {
+ /*  .content-body-page {
     margin-left: 1%;
 
-  }
+  } */
   .content-button-sidebar-major{
-      top: 84%;
+    top: 84%;
 
      right: 1rem;
+  }
+
+
+  .limit-left{
+    width: 0%;
+    height: 0%;
+  }
+  .content-body-page{
+
+    width: 100%;
+    color: white;
+  }
+  .limit-rigth{
+    width: 0%;
   }
 }

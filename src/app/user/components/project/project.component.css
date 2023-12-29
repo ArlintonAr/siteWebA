@@ -1,5 +1,6 @@
 
 .content{
+  flex-grow: 1;
   color: white;
   display: flex;
   flex-direction: column;
