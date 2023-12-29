@@ -9,7 +9,7 @@
 }
 
 .content-certifications, .content-education-experience{
-  max-width: 42rem;
+  max-width:100%;
 
   flex-grow: 1;
 
