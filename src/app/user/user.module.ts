@@ -10,6 +10,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { AlbumComponent } from './components/album/album.component';
 import { StepComponent } from './components/step/step.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
+import { FormationComponent } from './pages/formation/formation.component';
 
 
 
@@ -23,6 +24,7 @@ import { CertificationsComponent } from './components/certifications/certificati
     AlbumComponent,
     StepComponent,
     CertificationsComponent,
+    FormationComponent,
 
   ],
   imports: [
@@ -35,6 +37,8 @@ import { CertificationsComponent } from './components/certifications/certificati
     HomeComponent,
     ProfileComponent,
     AlbumComponent,
+    FormationComponent,
+
 
   ],
 

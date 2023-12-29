@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
+import { FormationComponent } from './pages/formation/formation.component';
 
 
 
@@ -16,6 +17,26 @@ const routes: Routes = [
   {
     path: 'history',
     component: HistoryComponent
+  },
+  {
+    path: 'formation',
+    component: FormationComponent,
+
+  },
+  {
+    path: 'portfolio',
+    component: FormationComponent,
+
+  },
+  {
+    path: 'services',
+    component: FormationComponent,
+
+  },
+  {
+    path: 'contact',
+    component: FormationComponent,
+
   },
   {
     path: '**',
