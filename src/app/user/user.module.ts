@@ -34,6 +34,7 @@ import { ProjectComponent } from './components/project/project.component';
     ContactComponent,
     ProjectComponent,
 
+
   ],
   imports: [
     CommonModule,
