@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { FormationComponent } from './pages/formation/formation.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 
 
@@ -25,7 +26,7 @@ const routes: Routes = [
   },
   {
     path: 'portfolio',
-    component: FormationComponent,
+    component: PortfolioComponent,
 
   },
   {
