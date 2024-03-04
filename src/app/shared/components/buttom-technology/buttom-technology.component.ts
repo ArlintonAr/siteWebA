@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'shared-buttom-technology',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './buttom-technology.component.css'
 })
 export class ButtomTechnologyComponent {
+
+
 
 }

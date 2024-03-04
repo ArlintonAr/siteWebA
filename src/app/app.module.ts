@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { SharedModule} from './shared/shared.module';
 import {  UserModule } from './user/user.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {  UserModule } from './user/user.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
 
     SharedModule,
     UserModule
