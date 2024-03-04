@@ -12,7 +12,7 @@ import { environmentsProd } from '../../../environments/environments.prod';
 })
 export class UserService {
 
-  public baseUrl:string=environments.baseUrl ||environmentsProd.baseUrlProd
+  public baseUrl:string=environmentsProd.baseUrlProd
 
   constructor(private http:HttpClient) { }
 
