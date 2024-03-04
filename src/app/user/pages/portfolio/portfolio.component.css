@@ -75,9 +75,8 @@ h1{
 .image-buttoms{
   position: relative;
 
-
-
 }
+
 img{
   max-width: 100%;
 
@@ -85,6 +84,7 @@ img{
   position: relative;
   display: block;
   cursor: pointer;
+
   aspect-ratio: 16/8;
 }
 
