@@ -10,13 +10,16 @@
   display: flex;
   flex-wrap: wrap;
   gap:1rem;
+
+
 }
 
 .user-project:first-child{
   flex: 1 0 100%;
 }
 .user-project{
-  flex: 1 0 calc(50% - 10px)
+  flex: 1 0 calc(50% - 10px);
+
 }
 
 
@@ -86,6 +89,7 @@ img{
   cursor: pointer;
 
   aspect-ratio: 16/8;
+
 }
 
 
@@ -143,7 +147,8 @@ img{
 
 p{
   margin: 10px;
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 

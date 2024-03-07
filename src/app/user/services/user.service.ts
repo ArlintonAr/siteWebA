@@ -3,7 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { environments } from '../../../environments/environments';
+/* import { environmentsProd } from '../../../environments/environments.prod';  */ /* Activar para subir a produccion */
 import { Projects} from '../interfaces/project.interface';
+import {  Certifications } from '../interfaces/certification.interface';
 import { environmentsProd } from '../../../environments/environments.prod';
 
 
@@ -20,6 +22,8 @@ export class UserService {
     return this.http.get<Projects>(`${this.baseUrl}/project`)
   }
 
-
+  public getCertifications():Observable<Certifications>{
+    return this.http.get<Certifications>(`${this.baseUrl}/certification`)
+  }
 
 }
