@@ -27,6 +27,13 @@ export class PortfolioComponent {
     this.userService.getProjects()
       .subscribe((resp:Projects)=> {
         this.projects =resp.projects
+
+        /* Codigo a mejorar para mostrar siempre la aplicacion mas llamativa */
+        if (this.projects.length > 1 && this.projects.length >= 3) {
+          const temp = this.projects[0];
+          this.projects[0] = this.projects[1];
+          this.projects[1] = temp;
+      }
         console.log(this.projects)
       })
   }
