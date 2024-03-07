@@ -30,9 +30,10 @@ export class PortfolioComponent {
 
         /* Codigo a mejorar para mostrar siempre la aplicacion mas llamativa */
         if (this.projects.length > 1 && this.projects.length >= 3) {
+          const randomIndex = Math.floor(Math.random() * (this.projects.length - 1)) + 1; // Genera un índice aleatorio entre 1 y n-1
           const temp = this.projects[0];
-          this.projects[0] = this.projects[1];
-          this.projects[1] = temp;
+          this.projects[0] = this.projects[randomIndex];
+          this.projects[randomIndex] = temp;
       }
         console.log(this.projects)
       })
