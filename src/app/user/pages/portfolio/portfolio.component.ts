@@ -12,7 +12,7 @@ export class PortfolioComponent {
 
 
     public projects:Project[]=[]
-
+    public loading:Boolean=false
 
 
   @Input()
@@ -24,10 +24,11 @@ export class PortfolioComponent {
 
   }
   ngOnInit(): void {
+    this.loading=true
     this.userService.getProjects()
       .subscribe((resp:Projects)=> {
         this.projects =resp.projects
-
+        this.loading=false
         /* Codigo a mejorar para mostrar siempre la aplicacion mas llamativa */
         if (this.projects.length > 1 && this.projects.length >= 3) {
           const randomIndex = Math.floor(Math.random() * (this.projects.length - 1)) + 1; // Genera un índice aleatorio entre 1 y n-1
@@ -40,3 +41,5 @@ export class PortfolioComponent {
   }
 
 }
+
+

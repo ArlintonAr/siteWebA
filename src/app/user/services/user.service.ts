@@ -14,7 +14,7 @@ import { environmentsProd } from '../../../environments/environments.prod';
 })
 export class UserService {
 
-  public baseUrl:string=environmentsProd.baseUrlProd
+  public baseUrl:string=environments.baseUrl
 
   constructor(private http:HttpClient) { }
 

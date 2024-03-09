@@ -12,7 +12,7 @@ import { StepComponent } from './components/step/step.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
 import { FormationComponent } from './pages/formation/formation.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { ServicesComponent } from './pages/services/services.component';
+
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectComponent } from './components/project/project.component';
 
@@ -30,7 +30,6 @@ import { ProjectComponent } from './components/project/project.component';
     CertificationsComponent,
     FormationComponent,
     PortfolioComponent,
-    ServicesComponent,
     ContactComponent,
     ProjectComponent,
 

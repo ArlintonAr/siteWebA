@@ -7,6 +7,7 @@ import { SocialComponent } from './components/social/social.component';
 import { SidebarMajorComponent } from './components/sidebar-major/sidebar-major.component';
 import { ButtonToggleMenuComponent } from './components/button-toggle-menu/button-toggle-menu.component';
 import { ButtomTechnologyComponent } from './components/buttom-technology/buttom-technology.component';
+import {LoadingCircleComponent} from './components/loading/loading-circle.component'
 
 
 
@@ -20,6 +21,7 @@ import { ButtomTechnologyComponent } from './components/buttom-technology/buttom
     SidebarMajorComponent,
     ButtonToggleMenuComponent,
     ButtomTechnologyComponent,
+    LoadingCircleComponent,
 
   ],
   imports: [
@@ -32,7 +34,8 @@ import { ButtomTechnologyComponent } from './components/buttom-technology/buttom
     SocialComponent,
     SidebarMajorComponent,
     ButtonToggleMenuComponent,
-    ButtomTechnologyComponent
+    ButtomTechnologyComponent,
+    LoadingCircleComponent
   ],
 
   providers: [],

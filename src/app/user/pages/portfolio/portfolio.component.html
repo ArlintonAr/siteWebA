@@ -8,10 +8,12 @@
       </h1>
     </div>
 
-    <div  class="projects">
+    <app-loading *ngIf="loading"></app-loading>
+    <div  class="projects" >
       <div *ngFor="let project of projects" class="user-project">
 
         <div  class="image-buttoms">
+
          <a [href]="project.url"> <img  [src]="project.img" alt=""> </a>
 
           <div class="buttom-technology">

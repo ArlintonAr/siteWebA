@@ -10,6 +10,25 @@ import { UserService } from '../../services/user.service';
 export class FormationComponent implements OnInit {
 
   public certifications:Certification[]=[]
+  public loading:Boolean=false
+  public listInstitutions=[
+    {
+      date:'2014-2020',
+      career:'Ingeniería de Sistemas',
+      name:'Universidad Nacional Pedro Ruiz Gallo'
+    },
+    {
+      date:'2006-2010',
+      career:'Formación Secundaria',
+      name:'Institución Educativa Augusto Salazar Bondy'
+    },
+    {
+      date:'2000-2005',
+      career:'Formación Primaria',
+      name:'Institución Educativa 10508 – San José'
+    }
+  ]
+
 
   @Input()
   public tittle:String[]=['EDUCACIÓN']
@@ -17,15 +36,26 @@ export class FormationComponent implements OnInit {
 
   constructor(private userService:UserService){}
 
+  get institutions(){
+    return this.listInstitutions
+  }
+
   ngOnInit(): void {
+    this.loading=true
 
     this.userService.getCertifications()
     .subscribe((res:Certifications)=>{
       this.certifications=res.certification
-      console.log(this.certifications)
+
+      this.loading=false
+      /* console.log(this.certifications) */
     })
 
   }
 
 
-}
+
+
+  }
+
+

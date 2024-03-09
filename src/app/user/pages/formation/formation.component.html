@@ -2,13 +2,13 @@
 
 
   <div class="content-certifications">
-    <shared-tittle-menu [contentParagraph]="tittle[0]"></shared-tittle-menu>
+    <shared-tittle-menu [contentParagraph]="tittle[0]"> </shared-tittle-menu>
     <div class="tittle">
       <h1>Mis <span>Certificaciones</span>
       </h1>
     </div>
     <div class="certifications">
-
+      <app-loading *ngIf="loading"></app-loading>
       <div class="certification" *ngFor="let certification of certifications">
         <div class="tittle-description">
           <p>{{certification.name}} </p>
@@ -38,9 +38,7 @@
       </h1>
     </div>
     <div class="content-step">
-      <user-step></user-step>
-      <user-step></user-step>
-      <user-step></user-step>
+      <user-step  [institutionData]="institutions"></user-step>
     </div>
   </div>
 

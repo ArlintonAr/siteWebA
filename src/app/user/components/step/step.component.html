@@ -1,20 +1,16 @@
 
-<div class="content">
-
+<div class="content" *ngFor="let institution of institutionData">
   <div class="spot-line">
     <i class="fa-solid fa-circle"></i>
     <div class="line"></div>
   </div>
   <div class="content-date-job">
-    <p>2014 - 2020</p>
+    <p>{{institution.date}}</p>
     <div class="job-description">
-      <h1>Ingeniería de Sistemas </h1>
-      <span>Universidad Nacional Pedro Ruiz Gallo</span>
+      <h1>{{institution.career}} </h1>
+      <span>{{institution.name}}</span>
     </div>
-    <div class="job-description">
-      <h1>Ingeniería de Sistemas </h1>
-      <span>Universidad Nacional Pedro Ruiz Gallo</span>
-    </div>
+
   </div>
 </div>
 
