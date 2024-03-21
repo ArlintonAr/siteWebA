@@ -6,6 +6,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { FormationComponent } from './pages/formation/formation.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ServicesUserComponent } from './pages/services-user/services-user.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 
@@ -31,12 +33,12 @@ const routes: Routes = [
   },
   {
     path: 'services',
-    component: FormationComponent,
+    component: ServicesUserComponent,
 
   },
   {
     path: 'contact',
-    component: FormationComponent,
+    component: ContactComponent,
 
   },
   {

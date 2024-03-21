@@ -9,23 +9,26 @@
     </div>
     <div class="certifications">
       <app-loading *ngIf="loading"></app-loading>
-      <div class="certification" *ngFor="let certification of certifications">
-        <div class="tittle-description">
-          <p>{{certification.name}} </p>
-          <div class="description">
-            <p>{{certification.entity}}</p>
-            <br>
-            <div class="date">
-              <span>{{certification.date |date:'yyyy,MM'}}</span> <br>
-              <div class="credential">
-                <span>{{certification.credential}}</span>
+      <div  class="certification" *ngFor="let certification of certifications" >
+        <a  class="tittle-description" [href]="certification.url">
+          <div  class="tittle-description">
+            <p>{{certification.name}} </p>
+            <div class="description">
+              <p>{{certification.entity}}</p>
+              <br>
+              <div class="date">
+                <span>{{certification.date |date:'yyyy,MM'}}</span> <br>
+                <div class="credential">
+                  <span>{{certification.credential}}</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="icon">
-          <a [href]="certification.url"><i class="fa-solid fa-diagram-project"></i></a>
-        </div>
+        </a>
+          <div class="icon">
+            <a [href]="certification.url"><i class="fa-solid fa-diagram-project"></i></a>
+          </div>
+
       </div>
 
     </div>

@@ -15,7 +15,8 @@ import { environments } from '../../../environments/environments';
 })
 export class UserService {
 
-  public baseUrl:string=environmentsProd.baseUrlProd
+  public baseUrl:string=environments.baseUrl
+
   constructor(private http:HttpClient) { }
 
   public getProjects():Observable<Projects>{

@@ -15,6 +15,7 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectComponent } from './components/project/project.component';
+import { ServicesUserComponent } from './pages/services-user/services-user.component';
 
 
 
@@ -32,6 +33,7 @@ import { ProjectComponent } from './components/project/project.component';
     PortfolioComponent,
     ContactComponent,
     ProjectComponent,
+    ServicesUserComponent,
 
 
   ],
