@@ -8,6 +8,7 @@ import { Projects} from '../interfaces/project.interface';
 import {  Certifications } from '../interfaces/certification.interface';
 
 import { environments } from '../../../environments/environments';
+import { environmentsProd } from '../../../environments/environments.prod';
 
 
 @Injectable({
@@ -15,7 +16,7 @@ import { environments } from '../../../environments/environments';
 })
 export class UserService {
 
-  public baseUrl:string=environments.baseUrl
+  public baseUrl:string=environmentsProd.baseUrlProd
 
   constructor(private http:HttpClient) { }
 
