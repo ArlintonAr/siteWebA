@@ -1,4 +1,4 @@
 
 export const environmentsProd={
-  baseUrlProd:"https://siteweba-backend-production.up.railway.app/api"
+  baseUrlProd:"https://site-web-a-backend.vercel.app/api"
 }
