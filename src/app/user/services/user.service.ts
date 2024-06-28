@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
  *//* import { environmentsProd } from '../../../environments/environments.prod';  */ /* Activar para subir a produccion */
 import { Projects} from '../interfaces/project.interface';
 import {  Certifications } from '../interfaces/certification.interface';
-import { environmentsProd } from '../../../environments/environments.prod';
+
 import { environments } from '../../../environments/environments';
 
 
@@ -15,7 +15,7 @@ import { environments } from '../../../environments/environments';
 })
 export class UserService {
 
-  public baseUrl:string=environmentsProd.baseUrlProd
+  public baseUrl:string=environments.baseUrl
 
   constructor(private http:HttpClient) { }
 
