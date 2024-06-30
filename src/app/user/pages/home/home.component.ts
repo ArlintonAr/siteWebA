@@ -10,4 +10,7 @@ export class HomeComponent {
 
   @Input()
   public tittle:String[]=['INICIO','ACERCA DE MÍ', 'EDUCACIÓN','PROYECTOS','SERVICIOS', 'CONTACTO']
+
+  @Input()
+  public icon:String='<i class="fa-solid fa-house">'
 }

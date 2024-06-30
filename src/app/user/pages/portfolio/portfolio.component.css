@@ -1,60 +1,74 @@
-.content{
+.content {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-
+  gap: 3rem;
+  padding:.5rem;
 
 }
-.projects{
+
+.projects {
   display: flex;
   flex-wrap: wrap;
-  gap:1rem;
+
+  gap: 5rem;
 
 
 }
 
-.user-project:first-child{
+.user-project:first-child {
   flex: 1 0 100%;
 }
-.user-project{
+
+.user-project {
   flex: 1 0 calc(50% - 10px);
-  aspect-ratio: 16/9;/* Investigar más  */
+
+  /* Investigar más  */
 
 }
+/* **************/
 
 
-.content-portfolio{
-  max-width:100%;
 
 
-  padding:.5rem;
+/* *************** */
+
+
+
+
+.content-portfolio {
+  max-width: 100%;
+
+
+  padding: .5rem;
   margin: 0;
 
 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
-h1{
-  font-size:48px ;
+h1 {
+  font-size: 48px;
   font-weight: 100;
   padding: 0;
   margin: 0;
 }
-
+.tittle{
+  margin-top: 2rem;
+}
 .tittle span {
   color: #28E98C;
   inline-size: auto;
 }
 
-.description{
+.description {
   inline-size: auto;
-
+  height: 1rem;
 }
 
-.description p{
+.description p {
 
 
   color: white;
@@ -66,7 +80,7 @@ h1{
 /****************Estilos de proyecto*************************/
 
 
-.content{
+.content {
   box-sizing: border-box;
   color: white;
   display: flex;
@@ -76,12 +90,12 @@ h1{
 
 }
 
-.image-buttoms{
+.image-buttoms {
   position: relative;
 
 }
 
-img{
+img {
   max-width: 100%;
 
   border-radius: 28px;
@@ -89,12 +103,13 @@ img{
   display: block;
   cursor: pointer;
 
-  aspect-ratio: 16/8;
+  object-fit: contain;/* No distorciona la imagen */
+
 
 }
 
 
-.buttom-technology{
+.buttom-technology {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -109,16 +124,18 @@ img{
 }
 
 
-.description p{
+.description p {
   display: inline-block;
   margin: 1rem;
   cursor: pointer;
-
+  transition: .5s;
 
 
 }
-.description p:hover{
+
+.description p:hover {
   border-bottom: 1px solid #28E98C;
+
 }
 
 /******************************************/
@@ -126,7 +143,6 @@ img{
 .technology {
 
   border-radius: 1.8rem;
-
 
 
   color: #000;
@@ -140,16 +156,22 @@ img{
   cursor: pointer;
 
 }
-.technology:hover{
-  background-color: #28E98C;
-  color: #000;
-  transition: .9s;
+
+.technology:hover {
+  background-color: black;
+  color:white;
+  transition: .8s;
 }
 
-p{
-  margin: 10px;
-  font-size: 10px;
+.technology p {
+  margin: .5rem;
   font-weight: bold;
+}
+
+p {
+
+  font-size: 12px;
+
 }
 
 
@@ -157,10 +179,11 @@ p{
 
 
 
-@media screen and (max-width: 767px ) {
-  img{
+@media screen and (max-width: 767px) {
+  img {
     border-radius: 16px;
   }
+
 }
 
 
@@ -169,19 +192,20 @@ p{
 /*****************************************/
 
 
-  /* Estilos para pantallas pequeñas */
-  @media screen and (max-width: 767px ) {
-    h1{
-      font-size:32px ;
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px;
 
-    }
-    .tittle span {
-      color: #28E98C;
-      inline-size: auto;
-    }
+  }
 
-    .user-project{
-      flex: 1 0 calc(50vw - 10px)
-    }
+  .tittle span {
+    color: #28E98C;
+    inline-size: auto;
+  }
 
-   }
+  .user-project {
+    flex: 1 0 calc(50vw - 10px)
+  }
+
+}

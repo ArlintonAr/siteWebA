@@ -124,17 +124,21 @@ h1 {
 /* ************************************** */
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
-  h1 {
-
-    font-weight: 100;
-    font-size: 3rem;
-    padding: 0;
-    margin: 0;
-  }
 
   .content-tittle-description {
     max-width: auto;
     margin: 0;
   }
+ .tittle * {
+    font-size:32px ;
+    font-weight: 100;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+  }
+  .tittle-ability h1 {
+    font-size:32px ;
 
+  }
 }
+

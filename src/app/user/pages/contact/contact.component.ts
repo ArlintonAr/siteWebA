@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+
+  @Input()
+  public titleContent:string[] =['CONTACTO']
+  @Input()
+  public icon:string =' <i class="fa-solid fa-envelope"></i>'
 }

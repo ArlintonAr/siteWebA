@@ -11,4 +11,6 @@ export class TittleMenuComponent {
   @Input()
   public contentParagraph:String=''
 
+  @Input()
+  public iconContent:String=''
 }

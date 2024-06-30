@@ -32,7 +32,8 @@ export class FormationComponent implements OnInit {
 
   @Input()
   public tittle:String[]=['EDUCACIÓN']
-
+  @Input()
+  public icon:String ='<i class="fa-solid fa-graduation-cap"></i>'
 
   constructor(private userService:UserService){}
 
