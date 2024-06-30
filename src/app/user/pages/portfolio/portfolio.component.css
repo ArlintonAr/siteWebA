@@ -19,6 +19,7 @@
 }
 .user-project{
   flex: 1 0 calc(50% - 10px);
+  aspect-ratio: 16/9;/* Investigar más  */
 
 }
 

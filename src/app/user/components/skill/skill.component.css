@@ -1,0 +1,43 @@
+
+/*
+#28E98C
+#999999
+
+#565656 border
+*/
+.content-skills{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+}
+
+.skill{
+
+  border: 1px solid #565656;
+  width: 7rem;
+  height: 12rem;
+  border-radius: 85px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+
+
+
+}
+.skill:hover{
+  border: 1px solid #28E98C;
+  transition:.3s ;
+}
+
+img{
+  /* aspect-ratio:9/9 */
+}
+span{
+  font-size: 15px;
+}

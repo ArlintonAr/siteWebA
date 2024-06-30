@@ -3,10 +3,11 @@
   justify-content: space-around;
   gap: 1rem;
   padding: .5rem;
+
 }
 
 .border {
-  border: 2px solid #565656;
+  border: 1px solid #565656;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -31,6 +32,7 @@ i {
 .border:hover{
   border: 1px solid #28E98C;
   transition: .6s;
+
 }
 i:hover{
   color: #28E98C;

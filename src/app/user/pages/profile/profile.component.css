@@ -66,7 +66,22 @@
 }
 .photo img{
   border-radius: 1.8rem;
+  aspect-ratio:9/9 ;
+  filter: grayscale(90%);
+
 }
+
+.social{
+  width: 100%;
+}
+
+.button-contact{
+  height: 3rem;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .content{

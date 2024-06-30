@@ -16,6 +16,9 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectComponent } from './components/project/project.component';
 import { ServicesUserComponent } from './pages/services-user/services-user.component';
+import { SkillComponent } from './components/skill/skill.component';
+import { ButtonDonwloadComponent } from './components/button-donwload/button-donwload.component';
+import { BrandsEnterpriseComponent } from './components/brands-enterprise/brands-enterprise.component';
 
 
 
@@ -34,6 +37,9 @@ import { ServicesUserComponent } from './pages/services-user/services-user.compo
     ContactComponent,
     ProjectComponent,
     ServicesUserComponent,
+    SkillComponent,
+    ButtonDonwloadComponent,
+    BrandsEnterpriseComponent,
 
 
   ],

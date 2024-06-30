@@ -1,0 +1,21 @@
+.content-brands{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+}
+.brand{
+  width: 30%;
+}
+img{
+  margin: 0;
+  cursor: pointer;
+  object-fit: contain;/* No distorciona la imagen */
+  width: 100%;
+}
+
+img:hover{
+
+}
