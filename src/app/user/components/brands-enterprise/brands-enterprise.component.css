@@ -1,7 +1,7 @@
 .content-brands{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   gap: 1rem;
 
@@ -15,7 +15,15 @@ img{
   object-fit: contain;/* No distorciona la imagen */
   width: 100%;
 }
-
+/* 565656 */
 img:hover{
 
+}
+
+
+
+@media screen and (min-width: 768px ) {
+.brand{
+  width: 20%;
+}
 }

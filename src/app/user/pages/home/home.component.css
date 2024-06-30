@@ -78,17 +78,19 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 
+
 }
 
 .experience {
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
   flex-direction: row;
-
 
   color: #999999;
 
   height: 100%;
+
+
 
 }
 
